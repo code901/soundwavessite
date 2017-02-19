@@ -1,0 +1,25 @@
+{
+  "name": "soundwavessite",
+  "version": "1.0.0",
+  "description": "Sound Waves Memphis Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code901/soundwavessite.git"
+  },
+  "author": "Sean McKenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code901/soundwavessite/issues"
+  },
+  "homepage": "https://github.com/code901/soundwavessite#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-less": "^0.1.0",
+    "less": "^2.7.2",
+    "pug": "^2.0.0-beta11"
+  }
+}
