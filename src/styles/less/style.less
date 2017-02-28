@@ -5,18 +5,35 @@
 /* Padding below the footer and lighter body text */
 
 body {
+  padding-top: 50px;
   padding-bottom: 40px;
+  background-color: black;
   color: #5a5a5a;
 }
 
-
-
-/* CUSTOMIZE THE JUMBOTRON
--------------------------------------------------- 
-.jumbotron {
-  margin-bottom: 0px;
+.page-heading {
+  background-color: black;
+  color: white;
   p {
-    color : @nice-blue
+    font-weight: 200;
+    font-size: 21px;
+  }
+}
+/* CUSTOMIZE THE JUMBOTRON
+-------------------------------------------------- */
+
+.jumbotron {
+  color: white;
+  background-color: black;
+  .row {
+    padding-bottom: 10px;
+  }
+  .title-row {
+    padding-top: 20px;
+    p {
+      font-weight: bold;
+      font-size: x-large;
+    }
   }
 }
 
@@ -43,6 +60,12 @@ body {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
+}
+.navbar-brand {
+  padding: 0px 0px;
+  img {
+    height: 100%;
+  }
 }
 
 

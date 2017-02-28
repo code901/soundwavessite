@@ -9,6 +9,7 @@ html
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     meta(name="author", content="Sean McKenna")
     meta(name="description", content="Code 901 Software Website")
+    meta(name="format-detection", content="telephone=no")
     div.navbar-wrapper
       div.container
         nav.navbar.navbar-inverse.navbar-fixed-top
@@ -19,32 +20,139 @@ html
                 span.icon-bar
                 span.icon-bar
                 span.icon-bar
-              span.navbar-brand Code 901 Logo
+              a.navbar-brand(href="#")
+                img(src="/images/soundwaveslogo-large.png", alt="Sound Waves")
             div#navbar.navbar-collapse.collapse
-              ul.nav.navbar-nav
+              ul.nav.navbar-nav.navbar-right
                 li.active
                   a(href="#") Home
                 li
                   a(href="#about") About
                 li
-                  a(href="#contact") Contact Us
+                  a(href="#products") Products
+                li
+                  a(href="#financing") Financing
                 li.dropdown
-                  a(href="#", data-toggle="dropdown").dropdown-toggle Dropdown
+                  a(href="#", data-toggle="dropdown").dropdown-toggle Contact Us
                     b.caret
                   ul.dropdown-menu
                     li
-                      a(href="#action") Action
+                      a(href="tel:+1-901-377-1001") Call Us
                     li
-                      a(href="#action2") Another Action
+                      a(href="mailto:sales@soundwavesmemphis.com?subject=Website%20Inquiry") Email Us
                     li.divider
-                    li.dropdown-header Some Context
+                    li.dropdown-header Get Social
                     li
-                      a(href="//www.google.com") Some other site
-    <!-- div.jumbotron
+                      a(href="//www.facebook.com/soundwavesmemphis") Facebook
+                    li
+                      a(href="//www.twitter.com/sounwavesmemphis")
+    div.page-heading
       div.container-fluid
-        h1 Code 901 Software
-        p Developed in Node using Express, Bootstrap and Less
-        a.glyphicon.glyphicon-search -->
-
+        h1 Welcome to Sound Waves
+        p Sound Waves is your Memphis car audio, video, and alarm specialist. We perform installations on everything from cars and trucks to boats, motorcycles, and even RV's. We carry the best brands in stereos, alarms, remote starts, speakers, amplifiers, radios, bluetooth, auxiliary solutions, navigation systems, gps systems, and window tint. Come visit our friendly staff and see our state of the art installation facility where we know you will feel comfortable with us taking proper care of your vehicle.
+    div.jumbotron#products
+      div.container-fluid
+        h2 Products
+        p We use only the best products for all our installs. Take a look at some of the brands we use...
+        div.row.title-row
+          div.container-fluid
+            p Remote Start and Security
+        div.row
+          div.col-sm-6
+            a(href="//www.escortradar.com")
+              img(src="/images/brands/escort.png")
+          div.col-sm-6
+            a(href="//www.k40.com")
+              img(src="/images/brands/k40.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.viper.com")
+              img(src="/images/brands/viper.png")
+        div.row.title-row
+          div.container-fluid
+            p Window Tinting
+        div.row
+          div.col-sm-6
+            a(href="//www.llumar.com")
+              img(src="/images/brands/llumar.png")
+          div.col-sm-6
+            a(href="//www.viper.com/car/windowfilm")
+              img(src="/images/brands/viper-tint.png")
+        div.row.title-row
+          div.container-fluid
+            p Car Audio
+        div.row
+          div.col-sm-6
+            a(href="//www.alpine-usa.com")
+              img(src="/images/brands/alpine.png")
+          div.col-sm-6
+            a(href="//www.atrendusa.com")
+              img(src="/images/brands/atrend.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.audiocontrol.com/car-audio")
+              img(src="/images/brands/audiocontrol.png")
+          div.col-sm-6
+            a(href="//www.audioenhancers.com")
+              img(src="/images/brands/audioenhancers.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.audiovoxproducts.com")
+              img(src="/images/brands/audiovox.png")
+          div.col-sm-6
+            a(href="//www.isimplesolutions.com")
+              img(src="/images/brands/isimple.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.jlaudio.com")
+              img(src="/images/brands/jlaudio.png")
+          div.col-sm-6
+            a(href="//www.kenwood.com/usa/car")
+              img(src="/images/brands/kenwood.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.navtv.com")
+              img(src="/images/brands/navtv.png")
+          div.col-sm-6
+            a(href="//www.pac-audio.com")
+              img(src="/images/brands/pac.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.parrot.com/usa")
+              img(src="/images/brands/parrot.png")
+          div.col-sm-6
+            a(href="//www.pioneerelectronics.com/PUSA/Car")
+              img(src="/images/brands/pioneer.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.siriusxm.com")
+              img(src="/images/brands/siriusxm.png")
+          div.col-sm-6
+            a(href="//www.stingerelectronics.com")
+              img(src="/images/brands/stinger.png")
+        div.row
+          div.col-sm-6
+            a(href="//www.usaspec.com")
+              img(src="/images/brands/usaspec.png")
+          div.col-sm-6
+            a(href="//www.viper.com")
+              img(src="/images/brands/viper.png")
+    div.jumbotron#about
+      div.container-fluid
+        h2 About SoundWaves
+        div.row
+          div.col-sm-6
+            img(src="/images/soundwaves-storefront.jpeg")
+          div.col-sm-6
+            img(src="/images/soundwaves-inside.jpeg")
+        p Sound Waves was founded in 1999 by Memphians. We began in a 1500 sq. ft. shop in Memphis and have progressed to what it is today, a 10,000 sq. ft. facility providing the highest level of service and installation in the Memphis area. It's all about great sound, innovative concepts, and continued service. We take automotive electronics to the next level. Sound Waves continues to outpace the competition by offering everything from quality basic installations to the finest in custom installations. For unmatched, top of the line vehicle conversions, Sound Waves is your path to perfection. All of our installers have a minimum of 10 years experience in the automotive and related fields. We have the most talented staff in the city to make sure your every need is met. For quality without compromise and service without question, look no further. Welcome to the world of Sound Waves.
+    div.jumbotron#financing
+      div.container-fluid
+        h2 Financing
+        img(src="/images/progressivelogo.png")
+        img(src="/images/nocreditneeded.png")
+        img(src="/images/90daypaymentoption.png")
+        p We are happy to provide financing through Progressive.
+        a(href="https://www.progressivelp.com/onlineapplication/onlineapplication.aspx?sid=Sound9013771001") Apply for Financing
     script(src="https://code.jquery.com/jquery-3.1.1.min.js", integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=", crossorigin="anonymous")
     script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js", integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", crossorigin="anonymous")
